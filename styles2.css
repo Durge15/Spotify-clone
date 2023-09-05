@@ -38,6 +38,14 @@
     grid-column:1/-1;
     background-color:purple;
 }
+.div-2-child3{
+    grid-row: 14/-1;
+    grid-column:1/-1 ;
+    display:flex;
+    flex-direction: column;
+    white-space: no-wrap;
+    overflow-y: scroll;
+}
 .text-color{
     color:white;
     font-size: 12px;
@@ -56,4 +64,17 @@
 .title-bar{
     overflow:hidden;
 }
-.title-bar:
+.song-title{
+    width: 150px;
+}
+.song-box{
+    width:1200px;
+
+}
+.b1
+{
+    width:100px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
